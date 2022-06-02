@@ -1,0 +1,11 @@
+query getAllMenu {
+  getAllMenu {
+    id
+    name
+    productIds {
+      id
+      name
+      image
+    }
+  }
+}

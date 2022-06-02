@@ -1,0 +1,11 @@
+mutation CreateMenu($input: MenuInput) {
+  createMenu(input: $input) {
+    id
+    name
+    productIds {
+      id
+      image
+      name
+    }
+  }
+}
